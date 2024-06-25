@@ -1,0 +1,11 @@
+TC_ID,TestCaseName,OrganizationName,HedCount,Status
+tc_01,createorgtest,facebook_,200,pass
+,,,,
+TC_ID,TestCaseName,OrganizationName,Industries,Type
+tc_02,CreateOrgWithType,Instragram_,Energy,Press
+,,,,
+TC_ID,TestCaseName,OrganizationName,phonenumber,
+tc_03,CreateOrgWithType,youtube_,1234567890,
+,,,,
+TC_ID,TestCaseName,OrganizationName,dropdown,
+tc_07,CreateOrgWithDelete,youtube_,Organization Name,
