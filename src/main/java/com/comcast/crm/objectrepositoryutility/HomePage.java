@@ -9,32 +9,32 @@ import org.openqa.selenium.support.PageFactory;
 import net.bytebuddy.asm.MemberSubstitution.FieldValue;
 
 public class HomePage {
-	
-WebDriver driver;
-	
+
+	WebDriver driver;
+
 	public HomePage(WebDriver driver) {
-		this.driver=driver;
-		PageFactory.initElements( driver, this);
+		this.driver = driver;
+		PageFactory.initElements(driver, this);
 	}
-	
+
 	@FindBy(linkText = "Organizations")
 	private WebElement orgLink;
-	
+
 	@FindBy(linkText = "Contacts")
 	private WebElement contactLink;
-	
+
 	@FindBy(linkText = "Opportunities")
 	private WebElement opppertunatiesLink;
-	
+
 	@FindBy(linkText = "Products")
 	private WebElement productsLink;
-	
+
 	@FindBy(linkText = "More")
 	private WebElement moreLink;
-		
+
 	@FindBy(linkText = "Campaigns")
 	private WebElement campaingnsLink;
-	
+
 	@FindBy(linkText = "Leads")
 	private WebElement leadsLink;
 
@@ -42,74 +42,55 @@ WebDriver driver;
 		return leadsLink;
 	}
 
-	
-
-	@FindBy (xpath = "//img[@src='themes/softed/images/user.PNG']")
+	@FindBy(xpath = "//img[@src='themes/softed/images/user.PNG']")
 	private WebElement adminImg;
-	
+
 	@FindBy(linkText = "Sign Out")
 	private WebElement signOutlink;
 
-	
 	public WebElement getAdminImg() {
 		return adminImg;
 	}
-
-
 
 	public WebElement getSignOutlink() {
 		return signOutlink;
 	}
 
-
-
 	public WebElement getOrgLink() {
 		return orgLink;
 	}
-
-
 
 	public WebElement getContactLink() {
 		return contactLink;
 	}
 
-
-
 	public WebElement getOpppertunatiesLink() {
 		return opppertunatiesLink;
 	}
-
-
 
 	public WebElement getProductsLink() {
 		return productsLink;
 	}
 
-
-
 	public WebElement getMoreLink() {
 		return moreLink;
 	}
 
-
-
 	public WebElement getCampaingnsLink() {
 		return campaingnsLink;
 	}
-
-
 
 	public void navigateToChampainsPage() {
 		Actions act = new Actions(driver);
 		act.moveToElement(moreLink).perform();
 		campaingnsLink.click();
 	}
-	
+
 	public void logout() {
 		Actions act = new Actions(driver);
 		act.moveToElement(adminImg).perform();
 		signOutlink.click();
-		
+
 	}
 
 }
