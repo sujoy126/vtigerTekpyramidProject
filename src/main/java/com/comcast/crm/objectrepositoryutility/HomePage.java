@@ -22,6 +22,9 @@ public class HomePage {
 	
 	@FindBy(linkText = "Organizations")
 	private WebElement orgLink22;
+	
+	@FindBy(linkText = "Organizations")
+	private WebElement orgLink99;
 
 	@FindBy(linkText = "Contacts")
 	private WebElement contactLink;
