@@ -31,10 +31,17 @@ WebDriver driver;
 	
 	@FindBy(linkText = "More")
 	private WebElement moreLink;
-	
-	
+		
 	@FindBy(linkText = "Campaigns")
 	private WebElement campaingnsLink;
+	
+	@FindBy(linkText = "Leads")
+	private WebElement leadsLink;
+
+	public WebElement getLeadsLink() {
+		return leadsLink;
+	}
+
 	
 
 	@FindBy (xpath = "//img[@src='themes/softed/images/user.PNG']")
