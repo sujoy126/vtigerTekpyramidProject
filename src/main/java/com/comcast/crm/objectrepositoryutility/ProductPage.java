@@ -10,6 +10,8 @@ public class ProductPage {
 	@FindBy(name="search")
 	private WebElement ele2;
 	
+	// new Product button will launch  as soon as possible. 
+	
 	
 
 }
