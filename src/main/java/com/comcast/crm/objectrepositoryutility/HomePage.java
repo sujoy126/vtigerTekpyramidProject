@@ -28,6 +28,11 @@ public class HomePage {
 	
 	@FindBy(linkText = "Organizations")
 	private WebElement orgLink100;
+	
+	@FindBy(linkText = "Organizations")
+	private WebElement orgLink202;
+	
+	
 
 	@FindBy(linkText = "Contacts")
 	private WebElement contactLink;
