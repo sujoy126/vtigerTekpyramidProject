@@ -47,6 +47,9 @@ public class HomePage {
 
 	@FindBy(linkText = "Sign Out")
 	private WebElement signOutlink;
+	
+	@FindBy(linkText = "Invoice")
+	private WebElement invoiceLink;
 
 	public WebElement getAdminImg() {
 		return adminImg;
@@ -78,6 +81,10 @@ public class HomePage {
 
 	public WebElement getCampaingnsLink() {
 		return campaingnsLink;
+	}
+
+	public WebElement getInvoiceLink() {
+		return invoiceLink;
 	}
 
 	public void navigateToChampainsPage() {
