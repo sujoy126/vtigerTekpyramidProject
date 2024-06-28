@@ -33,6 +33,7 @@ public class BaseClass {
 
 	public WebDriver driver = null;
 	public static WebDriver sdriver = null;
+	
 
 	@BeforeSuite(groups = { "SmokeTest", "RegressionTest" })
 	public void configBeforeSuit() throws SQLException {
