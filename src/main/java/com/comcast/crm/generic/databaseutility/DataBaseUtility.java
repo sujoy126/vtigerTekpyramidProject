@@ -1,6 +1,7 @@
 package com.comcast.crm.generic.databaseutility;
 
 import java.sql.Connection;
+
 import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -24,7 +25,7 @@ public class DataBaseUtility {
 		try {
 			Driver driver = new Driver();
 			DriverManager.registerDriver(driver);
-			conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/sanctoria", "root", "root");
+	 conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/sanctoria", "root", "root");
 		} catch (Exception e) {
 		}
 	}

@@ -26,8 +26,7 @@ public class CreateOrganizationTest extends BaseClass {
 		String OrganizationName = eLib.getDataFromExcel("orgdata", 0, 1) + javaLib.getRandomNumber(); // change 1 to 2
 
 		// step2 : navigate to organization module
-		// ListImpClass.test.log(Status.INFO, "navigate to org page"); // it will not
-		// participate on parallel execution
+// ListImpClass.test.log(Status.INFO, "navigate to org page"); // it will not participate on parallel execution
 		UtilityClassObject.getTest().log(Status.INFO, "navigate to org page");
 
 		HomePage hp = new HomePage(driver);
@@ -81,20 +80,11 @@ public class CreateOrganizationTest extends BaseClass {
 		String actualData = oip.getOrgInformation().getText();
 		boolean data = actualData.contains(OrganizationName);
 		Assert.assertTrue(data);
-//		if (actualData.contains(OrganizationName)) {
-//			System.out.println(OrganizationName+" is present in header of createOrgWithPhNumberTest ===> pass");
-//		} else {
-//			System.out.println(OrganizationName+" is not present in header of createOrgWithPhNumberTest ===> Fail");
-//		}
 
 		// Verify orgNameinfo Expected Result
 		String actOrgName = oip.getOrgnameDisplayBox().getText();
 		boolean dt = actOrgName.contains(OrganizationName);
 		Assert.assertEquals(dt, true);
-//		if (actOrgName.contains(OrganizationName)) {
-//			System.out.println(OrganizationName + " is present in orgBox of createOrgWithPhNumberTest ==pass");
-//		} else
-//			System.out.println(OrganizationName + " is not present in orgBox of createOrgWithPhNumberTest== fail");
 
 		// Verify the phone number
 		String actPhonenumber = oip.getPhDisplayBox().getText().trim();
@@ -133,34 +123,17 @@ public class CreateOrganizationTest extends BaseClass {
 		String actualData = oip.getOrgInformation().getText();
 		boolean ac = actualData.contains(OrganizationName);
 		Assert.assertEquals(ac, true);
-//		if (actualData.contains(OrganizationName)) {
-//			System.out.println(OrganizationName+" header is present in createOrgWithIndustryAndIndTypeTest == pass");
-//		} else {
-//			System.out.println(OrganizationName+" header is  not present in createOrgWithIndustryAndIndTypeTest == fail");
-//		}
 
 		// Verify orgNameinfo Expected Result
 		String actOrgName = oip.getOrgnameDisplayBox().getText().trim();
 		Assert.assertEquals(actOrgName, OrganizationName);
-//		if (actOrgName.contains(OrganizationName)) {
-//			System.out.println(OrganizationName + " is created in createOrgWithIndustryAndIndTypeTest == pass");
-//		} else
-//			System.out.println(OrganizationName + " is not created in createOrgWithIndustryAndIndTypeTest == fail");
 
 		// Verify the industry
 		String actualIndustries = oip.getIndustryBox().getText().trim();
 		Assert.assertEquals(actualIndustries, industryName);
-//		if (actualIndustries.equals(industryName)) {
-//			System.out.println(industryName + " is created in createOrgWithIndustryAndIndTypeTest == pass");
-//		} else
-//			System.out.println(industryName + " is not created in createOrgWithIndustryAndIndTypeTest == fail");
 		// type of industry
 		String actType = oip.getIndustryType().getText().trim();
 		Assert.assertEquals(actType, industryType);
-//		if (actType.equals(industryType)) {
-//			System.out.println(industryType + " is created in createOrgWithIndustryAndIndTypeTest == pass");
-//		} else
-//			System.out.println(industryType + " is not created in createOrgWithIndustryAndIndTypeTest == fail");
 	}
 
 }

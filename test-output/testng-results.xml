@@ -5,46 +5,46 @@
       <![CDATA[Test case Executed Sucessfully createOrgTest]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-06-25T10:43:42 IST" name="Default suite" finished-at="2024-06-25T10:44:13 IST" duration-ms="30624">
+  <suite started-at="2024-06-27T16:55:18 IST" name="Suite" finished-at="2024-06-27T16:55:40 IST" duration-ms="21663">
     <groups>
       <group name="SmokeTest">
-        <method signature="CreateOrganizationTest.createOrgTest()[pri:0, instance:com.comcast.crm.organizationmoduleTest.CreateOrganizationTest@4b013c76]" name="createOrgTest" class="com.comcast.crm.organizationmoduleTest.CreateOrganizationTest"/>
+        <method signature="CreateOrganizationTest.createOrgTest()[pri:0, instance:com.comcast.crm.organizationmoduleTest.CreateOrganizationTest@53045c6c]" name="createOrgTest" class="com.comcast.crm.organizationmoduleTest.CreateOrganizationTest"/>
       </group> <!-- SmokeTest -->
     </groups>
-    <test started-at="2024-06-25T10:43:42 IST" name="Default test" finished-at="2024-06-25T10:44:13 IST" duration-ms="30624">
+    <test started-at="2024-06-27T16:55:18 IST" name="Test" finished-at="2024-06-27T16:55:40 IST" duration-ms="21663">
       <class name="com.comcast.crm.organizationmoduleTest.CreateOrganizationTest">
-        <test-method is-config="true" signature="configBeforeSuit()[pri:0, instance:com.comcast.crm.organizationmoduleTest.CreateOrganizationTest@4b013c76]" started-at="2024-06-25T10:43:42 IST" name="configBeforeSuit" finished-at="2024-06-25T10:43:42 IST" duration-ms="353" status="PASS">
+        <test-method is-config="true" signature="configBeforeSuit()[pri:0, instance:com.comcast.crm.organizationmoduleTest.CreateOrganizationTest@53045c6c]" started-at="2024-06-27T16:55:17 IST" name="configBeforeSuit" finished-at="2024-06-27T16:55:18 IST" duration-ms="388" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBeforeSuit -->
-        <test-method is-config="true" signature="configBeforeClass()[pri:0, instance:com.comcast.crm.organizationmoduleTest.CreateOrganizationTest@4b013c76]" started-at="2024-06-25T10:43:42 IST" name="configBeforeClass" finished-at="2024-06-25T10:43:46 IST" duration-ms="3314" status="PASS">
+        <test-method is-config="true" signature="configBeforeClass()[pri:0, instance:com.comcast.crm.organizationmoduleTest.CreateOrganizationTest@53045c6c]" started-at="2024-06-27T16:55:18 IST" name="configBeforeClass" finished-at="2024-06-27T16:55:21 IST" duration-ms="2708" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBeforeClass -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:com.comcast.crm.organizationmoduleTest.CreateOrganizationTest@4b013c76]" started-at="2024-06-25T10:43:46 IST" name="configBM" finished-at="2024-06-25T10:43:51 IST" duration-ms="5640" status="PASS">
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.comcast.crm.organizationmoduleTest.CreateOrganizationTest@53045c6c]" started-at="2024-06-27T16:55:21 IST" name="configBM" finished-at="2024-06-27T16:55:25 IST" duration-ms="4310" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBM -->
-        <test-method signature="createOrgTest()[pri:0, instance:com.comcast.crm.organizationmoduleTest.CreateOrganizationTest@4b013c76]" started-at="2024-06-25T10:43:51 IST" name="createOrgTest" finished-at="2024-06-25T10:44:10 IST" duration-ms="18903" status="PASS">
+        <test-method signature="createOrgTest()[pri:0, instance:com.comcast.crm.organizationmoduleTest.CreateOrganizationTest@53045c6c]" started-at="2024-06-27T16:55:25 IST" name="createOrgTest" finished-at="2024-06-27T16:55:38 IST" duration-ms="12711" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Test case Executed Sucessfully createOrgTest]]>
             </line>
           </reporter-output>
         </test-method> <!-- createOrgTest -->
-        <test-method is-config="true" signature="createAM()[pri:0, instance:com.comcast.crm.organizationmoduleTest.CreateOrganizationTest@4b013c76]" started-at="2024-06-25T10:44:10 IST" name="createAM" finished-at="2024-06-25T10:44:12 IST" duration-ms="2306" status="PASS">
+        <test-method is-config="true" signature="createAM()[pri:0, instance:com.comcast.crm.organizationmoduleTest.CreateOrganizationTest@53045c6c]" started-at="2024-06-27T16:55:38 IST" name="createAM" finished-at="2024-06-27T16:55:39 IST" duration-ms="1523" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createAM -->
-        <test-method is-config="true" signature="configAfterClass()[pri:0, instance:com.comcast.crm.organizationmoduleTest.CreateOrganizationTest@4b013c76]" started-at="2024-06-25T10:44:12 IST" name="configAfterClass" finished-at="2024-06-25T10:44:13 IST" duration-ms="358" status="PASS">
+        <test-method is-config="true" signature="configAfterClass()[pri:0, instance:com.comcast.crm.organizationmoduleTest.CreateOrganizationTest@53045c6c]" started-at="2024-06-27T16:55:39 IST" name="configAfterClass" finished-at="2024-06-27T16:55:40 IST" duration-ms="332" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAfterClass -->
-        <test-method is-config="true" signature="configAfterSuit()[pri:0, instance:com.comcast.crm.organizationmoduleTest.CreateOrganizationTest@4b013c76]" started-at="2024-06-25T10:44:13 IST" name="configAfterSuit" finished-at="2024-06-25T10:44:13 IST" duration-ms="9" status="PASS">
+        <test-method is-config="true" signature="configAfterSuit()[pri:0, instance:com.comcast.crm.organizationmoduleTest.CreateOrganizationTest@53045c6c]" started-at="2024-06-27T16:55:40 IST" name="configAfterSuit" finished-at="2024-06-27T16:55:40 IST" duration-ms="10" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAfterSuit -->
       </class> <!-- com.comcast.crm.organizationmoduleTest.CreateOrganizationTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
